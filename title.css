@@ -1,0 +1,172 @@
+.container {
+    display: flex;
+    position: relative;
+}
+
+#title_container {
+    width: 80%;
+}
+
+#fun_with_svgs {
+    position:absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 10;
+}
+
+#fun_with_svgs path:nth-child(1) {
+    stroke-dasharray: 100% !important;
+    stroke-dashoffset: 100%;
+    -webkit-animation: line-anim 2s ease forwards;
+    -moz-animation: line-anim 2s ease forwards;
+    animation: line-anim 2s ease forwards;
+}   
+
+#fun_with_svgs path:nth-child(2) {
+    stroke-dasharray: 100% !important;
+    stroke-dashoffset: 100%;
+    -webkit-animation: line-anim 2s ease forwards;
+    -moz-animation: line-anim 2s ease forwards;
+    animation: line-anim 2s ease forwards;  
+}
+
+#fun_with_svgs path:nth-child(3) {
+    stroke-dasharray: 100% !important;
+    stroke-dashoffset: 100%;
+    -webkit-animation: line-anim 2s ease forwards;
+    -moz-animation: line-anim 2s ease forwards;
+    animation: line-anim 2s ease forwards; 
+}   
+
+#fun_with_svgs path:nth-child(4) {
+    stroke-dasharray: 100% !important;
+    stroke-dashoffset: 100%;
+    -webkit-animation: line-anim 2s ease forwards .4s;
+    -moz-animation: line-anim 2s ease forwards .4s;
+    animation: line-anim 2s ease forwards .4s;   
+}  
+
+#fun_with_svgs path:nth-child(5) {
+    stroke-dasharray: 100% !important;
+    stroke-dashoffset: 100%;
+    -webkit-animation: line-anim 2s ease forwards .4s;
+    -moz-animation: line-anim 2s ease forwards .4s;
+    animation: line-anim 2s ease forwards .4s;  
+}   
+
+#fun_with_svgs path:nth-child(6) {
+    stroke-dasharray: 100% !important;
+    stroke-dashoffset: 100%;
+    -webkit-animation: line-anim 2s ease forwards .4s;
+    -moz-animation: line-anim 2s ease forwards .4s;
+    animation: line-anim 2s ease forwards .4s;  
+}   
+
+#fun_with_svgs path:nth-child(7) {
+    stroke-dasharray: 100% !important;
+    stroke-dashoffset: 100%;
+    -webkit-animation: line-anim 2s ease forwards .4s;
+    -moz-animation: line-anim 2s ease forwards .4s;
+    animation: line-anim 2s ease forwards .4s;  
+}   
+
+#fun_with_svgs path:nth-child(8) {
+    stroke-dasharray: 100% !important;
+    stroke-dashoffset: 100%;
+    -webkit-animation: line-anim 2s ease forwards .4s;
+    -moz-animation: line-anim 2s ease forwards .4s;
+    animation: line-anim 2s ease forwards .4s;  
+}   
+
+#fun_with_svgs path:nth-child(9) {
+    stroke-dasharray: 100% !important;
+    stroke-dashoffset: 100%;
+    -webkit-animation: line-anim 2s ease forwards .4s;
+    -moz-animation: line-anim 2s ease forwards .4s;
+    animation: line-anim 2s ease forwards .4s;  
+}   
+
+#fun_with_svgs path:nth-child(10) {
+    stroke-dasharray: 100% !important;
+    stroke-dashoffset: 100%;
+    -webkit-animation: line-anim 2s ease forwards .4s;
+    -moz-animation: line-anim 2s ease forwards .4s;
+    animation: line-anim 2s ease forwards .4s;  
+}   
+
+#fun_with_svgs path:nth-child(11) {
+    stroke-dasharray: 100% !important;
+    stroke-dashoffset: 100%;
+    -webkit-animation: line-anim 2s ease forwards .4s;
+    -moz-animation: line-anim 2s ease forwards .4s;
+    animation: line-anim 2s ease forwards .4s;  
+}
+
+#fun_with_svgs path:nth-child(12) {
+    stroke-dasharray: 100% !important;
+    stroke-dashoffset: 100%;
+    -webkit-animation: line-anim 2s ease forwards .4s;
+    -moz-animation: line-anim 2s ease forwards .4s;
+    animation: line-anim 2s ease forwards .4s;  
+}
+
+@keyframes line-anim {
+    0% {
+        fill: transparent;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0), 0 0 10px 10px rgba(255, 255, 255, 0), 0 0 0 10px rgba(255, 255, 255, 0);
+
+    }
+    75% {
+        fill:transparent;
+        stroke-dashoffset: 0px;
+    }
+    100% {
+        fill: white;
+        stroke-dashoffset: 0px;
+    }
+}
+
+@-webkit-keyframes line-anim {
+    0% {
+        fill: transparent;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0), 0 0 10px 10px rgba(255, 255, 255, 0), 0 0 0 10px rgba(255, 255, 255, 0);
+
+    }
+    75% {
+        fill:transparent;
+        stroke-dashoffset: 0px;
+    }
+    100% {
+        fill: white;
+        stroke-dashoffset: 0px;
+    }
+}
+@-moz-keyframes line-anim {
+    0% {
+        fill: transparent;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0), 0 0 10px 10px rgba(255, 255, 255, 0), 0 0 0 10px rgba(255, 255, 255, 0);
+
+    }
+    75% {
+        fill:transparent;
+        stroke-dashoffset: 0px;
+    }
+    100% {
+        fill: white;
+        stroke-dashoffset: 0px;
+    }
+}
+@-ms-keyframes line-anim {
+    0% {
+        fill: transparent;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0), 0 0 10px 10px rgba(255, 255, 255, 0), 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    75% {
+        fill:transparent;
+        stroke-dashoffset: 0px;
+    }
+    100% {
+        fill: white;
+        stroke-dashoffset: 0px;
+    }
+}
